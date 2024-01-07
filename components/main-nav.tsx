@@ -27,27 +27,21 @@ export function MainNav() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Server Side</NavigationMenuTrigger>
+            <NavigationMenuTrigger>NONO</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                <ListItem href="/server-example" title="RSC Example">
-                  Protecting React Server Component.
-                </ListItem>
-                <ListItem href="/middleware-example" title="Middleware Example">
-                  Using Middleware to protect pages & APIs.
-                </ListItem>
-                <ListItem href="/api-example" title="Route Handler Example">
-                  Getting the session inside an API Route.
+                <ListItem href="/nono" title="NONO 用例">
+                  在这里查看更多nono的使用案例
                 </ListItem>
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              href="/client-example"
+              href="/prompt"
               className={navigationMenuTriggerStyle()}
             >
-              Client Side
+              Prompt
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
